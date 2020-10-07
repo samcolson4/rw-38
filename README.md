@@ -29,4 +29,9 @@ To see those that I would like to sign
 As an administrator
 I want a way to approve user petitions
 To retain editorial control of the website
+
+As the business owner
+I need to see how people are using the website
+To monetize the web traffic
 ```
+
