@@ -6,7 +6,8 @@ This is a planning document for a website that serves as an aggregator for polli
 ## Deployment
 ```
 Bundle install
-Rackup [TBD]
+Rackup
+In your browser, visit localhost:9292
 ```
 
 The website will either use Sinatra or Rails. This decision is yet to be made, and therefore effects how you would deploy the site.
@@ -16,7 +17,7 @@ Testing is done through a combination of Rspec, Jasmine, and Capybara. Rspec, Ca
 
 ---
 ## MVP
-* A website running on Sinatra, using Postgres DBs, that a user can sign up to and start a new petition.
+* A website running on Sinatra, using Postgres , that a user can sign up to and start a new petition.
 * A page that contains links to external polling websites.
 * (Stretch) A way for users to sign eachother's petitions.
 

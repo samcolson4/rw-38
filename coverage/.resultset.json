@@ -1,7 +1,35 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/samcolson/Documents/Projects/rw-38/spec/units/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/samcolson/Documents/Projects/rw-38/lib/user.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
     },
-    "timestamp": 1602076931
+    "timestamp": 1602500558
   }
 }

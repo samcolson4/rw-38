@@ -1,0 +1,30 @@
+CREATE DATABASE rw38;
+
+CREATE EXTENSION pgcrypto;
+
+CREATE TABLE users(
+  id SERIAL PRIMARY KEY,
+  first_name TEXT NOT NULL,
+  surname TEXT NOT NULL,
+  email TEXT UNIQUE NOT NULL,
+  password TEXT NOT NULL
+)
+
+
+
+### EXAMPLE SQL FOR USING crypt EXTENSION: 
+INSERT INTO users (email, password, name, username) VALUES (
+  'johndoe@mail.com',
+  crypt('johnspassword', gen_salt('bf')),
+  'John Doe',
+  'johnnydoe'
+  );
+
+
+## here, the password is 'johnspassword'. it is being encrypted using blowfish (bf) by gen_salt.
+
+
+Suggested further reading:
+https://x-team.com/blog/storing-secure-passwords-with-postgresql/
+ - Instructions for accessing data are at the bottom. 
+ 
